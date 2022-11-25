@@ -1,0 +1,102 @@
+*{
+    transition: 0.3s ease-in-out;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.box{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+.card-login {
+  box-shadow: -3px -7px 31px 13px rgba(0, 0, 0, 0.07);
+  background-color: white;
+  width: 50%;
+}
+
+.card-header h1{
+  font-size: 25px;
+  color: blueviolet;
+  font-weight: bold;
+}
+
+form.form-login {
+  width: 80%;
+}
+
+input.form-input {
+  padding: 16px;
+  border-radius: 50px;
+  border: 1px solid blueviolet;
+  color: blueviolet;
+  font-weight: 500;
+}
+
+label.form-label {
+  color: blueviolet;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+button.btn.btn-login {
+  width: 100%;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 50px;
+  margin-top: 30px;
+  padding: 12px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+button.btn.btn-login:hover{
+    background-color: rgb(111, 25, 192);
+}
+
+form p{
+  margin-top: 10px;
+  font-size: 14px;
+  color: blueviolet;
+}
+
+
+@media (max-width: 430px) {
+  .card-login {
+    width: 100%;
+  }
+  form.form-login {
+  width: 80%;
+}
+.card-header h1{
+  font-size: 18px;
+  font-weight: bold;
+}
+input.form-input {
+  padding: 10px;
+  border-radius: 50px;
+  font-size: 12px;
+}
+label.form-label {
+  margin-top: 10px;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 12px;
+}
+button.btn.btn-login {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 14px;
+}
+form p{
+  font-size: 12px;
+  color: blueviolet;
+}
+
+}
+
