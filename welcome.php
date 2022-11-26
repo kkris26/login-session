@@ -31,7 +31,7 @@ if(!isset($_SESSION['username'])){
     <div class="container">
       <div class="box ">
         <div class="content d-flex justify-content-center align-items-center">
-          <h1 class="text-center">Welcome Back !!</h1> . $_SESSION["username"]
+          <h1 class="text-center">Welcome Back !!</h1>
         </div>
         <div class="logout">
           <a href="logout.php">logout</a>

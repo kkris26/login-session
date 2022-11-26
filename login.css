@@ -18,7 +18,7 @@
 }
 
 .perintah {
-  margin-top: 22px;
+  margin-top: 10px;
 }
 .perintah p {
   color: blueviolet;
@@ -30,6 +30,7 @@
   background-color: blueviolet;
   border-radius: 8px;
   font-size: 12px;
+  font-weight: 500;
 }
 .perintah a:hover {
   color: white;

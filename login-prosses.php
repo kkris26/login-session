@@ -12,12 +12,12 @@ if(empty($_SESSION["username"])){
             header('location: dashboard.php');
         }
         else{
-            echo "login gagal";
+            echo "username & password yang anda masukkan salah";
         }
         fclose($myfile);
     }
     else{
-        echo "email dan pasword kosong";
+        echo "username dan pasword kosong";
     }
 }
 else{
